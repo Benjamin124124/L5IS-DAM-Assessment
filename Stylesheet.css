@@ -1,6 +1,7 @@
 body {
     font-family: Arial;
 }
+/*Logo and title*/
 .header {
     text-align: center;
 }
@@ -12,4 +13,43 @@ div.title {
     color: white;
     margin: 0.8rem 16rem;
     padding: 0.1rem 0;
+}
+/*Divisions*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left, .right {
+    width: 33.33%;
+    background-color: #c21e29;
+    color: white;
+}
+.middle {
+    width: 33.33%;
+    background-color: #f32936;
+    color: white;
+}
+div.gallery {
+    margin: 4px 10rem;
+    border: 1px solid rgb(70, 70, 70);
+    background-color: #dddddd;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid rgb(241, 170, 170);
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
