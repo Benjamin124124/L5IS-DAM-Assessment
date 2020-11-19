@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+}
+.header {
+    text-align: center;
+}
+h2.header {
+    background-color: #f32936;
+}
+div.title {
+    background-color: #f32936;
+    color: white;
+    margin: 0.8rem 16rem;
+    padding: 0.1rem 0;
+}
