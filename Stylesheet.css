@@ -132,3 +132,19 @@ form button {
   #message {
       height: 200px;
   }
+  /*Footer*/
+  #footer {
+    margin-top: 50px;
+    display: flex;
+    height: 60px;
+    width:100%;
+    background-color: #f32936;
+    color: white;
+    padding:1px 10px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.fab{
+    padding: 5px 15px 15px 15px;
+    color: white;
+}
