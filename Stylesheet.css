@@ -43,7 +43,7 @@ div.gallery {
     width: 180px;
 }
 div.gallery:hover {
-    border: 1px solid rgb(241, 170, 170);
+    border: 1px solid rgb(245, 156, 156);
 }
 div.gallery img {
     width: 100%;
